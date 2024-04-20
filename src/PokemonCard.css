@@ -1,0 +1,30 @@
+.pokemon-card {
+  background-color: #e2736f;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  padding: 0.5em;
+  min-width: fit-content;
+
+  border: 3px solid #00000077;
+}
+
+.pokemon-card-title {
+  color: #fff;
+  text-shadow: 3px 3px #00000077;
+  text-transform: capitalize;
+}
+
+.pokemon-card-types {
+  display: flex;
+  gap: 0.3em;
+}
+
+.pokemon-type {
+  color: #f8f8f8;
+  width: fit-content;
+  padding: 4px 10px;
+  border: 2px solid #00000077;
+  text-shadow: 2px 2px #00000077;
+}

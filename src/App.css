@@ -1,0 +1,13 @@
+#pokemonSearch {
+  border: 1px solid black;
+  font-size: large;
+  padding: 0.5em;
+}
+
+#pokemons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2em;
+
+  justify-items: center;
+}
